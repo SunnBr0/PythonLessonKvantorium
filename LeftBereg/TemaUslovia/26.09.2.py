@@ -1,0 +1,13 @@
+# > ,>=, <, <=, ==, != 
+ravenstro = (2 == 2)
+more = (3 > 5)
+boleeMore = (5>= 5)
+menee = (2 < 0 )
+moreMenee = (2 <=2)
+neravno= (3!=3)
+print("ravenstro",ravenstro)
+print("more",more)
+print("boleeMore",boleeMore)
+print("menee",menee)
+print("moreMenee",moreMenee)
+print("neravno",neravno)
