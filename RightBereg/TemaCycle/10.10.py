@@ -1,5 +1,5 @@
 import random
-randomValue=random.randint(-1000,1000)
+randomValue=random.randint(1,1000)
 print("Попали в игру <угадали число>")
 while True:
     numInput = int(input("Ваше предположение "))
