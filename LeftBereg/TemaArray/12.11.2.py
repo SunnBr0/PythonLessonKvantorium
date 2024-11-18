@@ -1,0 +1,16 @@
+myList =[-1,2,3,22,-33]
+print("old list",myList)
+print(type(myList))
+myList[0] = 100
+print("new list",myList)
+myList.append(999)
+print("new new list",myList)
+myList.remove(22)
+print("new^3 list",myList)
+myList.insert(1,50)
+print("new^4 list",myList)
+myList.pop(0)
+myList.pop(-1)
+print("new^5 list",myList)
+myList.clear()
+print("new^6 list",myList)

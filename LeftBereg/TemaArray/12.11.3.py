@@ -1,0 +1,11 @@
+myList = [-1,2,1,6,2,6,8,9]
+myList.sort(reverse=True)
+print(myList)
+myList.sort()
+print(myList)
+countValue = myList.count(2)
+print("2 count: ",countValue)
+indexValue = myList.index(6)
+print("6 index: ",indexValue)
+myList.reverse()
+print(myList)
