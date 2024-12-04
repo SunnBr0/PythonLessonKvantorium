@@ -1,3 +1,5 @@
 Hello
 Word
 Привет
+NewInfo
+NewInfo
