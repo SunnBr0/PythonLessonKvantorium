@@ -1,0 +1,11 @@
+x = int(input("Вводим число: "))
+NotX = input("Вводим не число: ")
+print(type(x),"тип данных: ",x)
+print(type(NotX),"тип данных: ",NotX)
+print(type(False),"тип данных: ",False)
+print(type((1,2,4)),"тип данных: ",(1,2,4))
+print(type([1,2,4]),"тип данных: ",[1,2,4])
+print(type(1.5),"тип данных: ",1.5)
+print(type({1,2,2}),"тип данных: ",{1,2,2})
+print(type({"key":"value","1":"2"}),
+      "тип данных: ",{"key":"value","1":"2"})

@@ -1,0 +1,13 @@
+listNumber = [1,2,3,4,-1,2,-5]
+print(len(listNumber))
+listNumber.append(100)
+print(listNumber)
+listNumber.remove(-5)
+print(listNumber)
+listNumber.insert(1,-100)
+print(listNumber)
+listNumber.pop(0)
+listNumber.pop(-1)
+print(listNumber)
+print(listNumber[1:4])
+print(listNumber[::-1])
