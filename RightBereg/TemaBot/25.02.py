@@ -12,7 +12,6 @@ async def getNameFunc(update:Update,context:ContextTypes):
     context.user_data["name"]= update.message.text
     await update.message.reply_text("Сколько вам лет?")
     return 1
-
 async def getAgeFunc(update:Update,context:ContextTypes):
     context.user_data["age"] = update.message.text
     name = context.user_data["name"]
@@ -22,7 +21,6 @@ async def getAgeFunc(update:Update,context:ContextTypes):
         reply_markup=ReplyKeyboardRemove()
     )
     return ConversationHandler.END
-    
 async def  cancelFunc(update:Update,context:ContextTypes):
     await update.message.reply_text(
         "Отменено. Если хотите начать сначала ,отправь /start",
